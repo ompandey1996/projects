@@ -1,0 +1,92 @@
+
+        *{
+            margin:0px; padding:0px; box-sizing: border-box;  
+          }
+          .container{
+              height:100px;
+              width:5000px;
+              background-color: rgb(9, 182, 144);
+              background-image: url("https://image.shutterstock.com/image-vector/vector-design-art-music-india-260nw-379975657.jpg");
+              
+          }
+          h1{
+          text-align: center;
+          color:rgb(5, 114, 204);
+          font-family: 'Times New Roman', Times, serif;
+          letter-spacing:5px ;
+          font-weight: bolder;
+          font-size:50px;
+          }
+          h2{
+              text-align: center;
+              color:rgba(rgb(11, 80, 28), rgb(0, 66, 153), blue, alpha)
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-size
+              
+          }
+          h3{
+              font-size: 35px;
+              text-align: center;
+              color:white;
+              background-color:red;
+          }
+          .f-container {
+            display: flex;
+            height:160px;
+            width:1200px;
+            background-color:rgb(109, 9, 139)
+          }
+          p{
+             line-height:150px ;
+             color: aqua; 
+          }
+          img:hover
+          {
+           width:auto ;
+           height:auto;   
+          }
+          p:hover{
+              font-size:25px;
+          }
+          .formdesign {
+			font-size: 20px;
+			background-color:greenyellow;
+			color:rgb(39, 5, 5);
+
+		}
+
+		.formdesign input {
+			width: 50%;
+			padding: 12px 20px;
+			border: 1px solid blue;
+			margin: 14px;
+			border-radius: 4px;
+			font-size: 15px;
+		}
+
+		.formerror {
+			color: red;
+		}
+
+		.but {
+			border-radius: 9px;
+			width: 100px;
+			height: 50px;
+			font-size: 25px;
+			margin: 22px 20px;
+			background-color: purple;
+			
+		}
+  
+     
+      .os{
+        background-image:url("https://image.shutterstock.com/image-photo/amazing-hindu-wedding-ceremony-details-260nw-504729673.jpg") ;
+      }
+     
+  
+         
+         
+     
+  
+     
+   

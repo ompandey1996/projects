@@ -1,0 +1,110 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+
+}
+.f-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+
+}
+.container-fluid{
+    background-color: black;
+    color:red;
+}
+
+
+
+.maths{
+    width:auto;
+    height:180px ;
+    background-color:lightskyblue ;
+
+
+}
+.engish{
+    width:auto;
+    height:140px ;
+    background-color:lightgray
+
+
+
+}
+.Computer{
+    width:auto;
+    height:140px ;
+    background-color:lightblue ;
+
+
+
+}
+.science{
+    width:auto;
+    height:140px ;
+    background-color:lightcyan ;
+
+
+}
+.btn{
+    height:30px;
+    width:100px;
+    background-color: purple;
+    color:white;
+    font-size:19px;
+    margin-top:5px ;
+    border-radius:5px;
+    
+}
+.btn1{
+    margin-top:40px ;
+
+
+}
+
+.m1:hover{
+    width:auto;
+    height:200px ;
+
+}
+.div1{
+    text-align: center;
+}
+.container-fluid{
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+h4{
+    color:red;
+    font-size:35px ;
+}
+h5{
+    color:white;
+    font-size:25px;
+}
+span{
+    color: aqua;
+}
+span:hover{
+    font-size:60px;
+    color: aquamarine;
+
+}
