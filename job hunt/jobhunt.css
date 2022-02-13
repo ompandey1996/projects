@@ -1,0 +1,141 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+  }
+  .f-container{
+      display:flex;
+  }
+  img {
+      width:100px;
+      height:2
+      0px;
+      border-radius:50% ;
+      padding-top:5px ;
+      
+  }
+  h1{
+      color: white;
+    padding-left:200px ;
+    padding-top:20px;
+    font-size:50px;
+    letter-spacing:5px ; 
+  
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+   h2{
+      font-size:50px;
+      padding-left:230px ;
+      color: white;
+       
+   }
+   .div1{
+  
+      width:auto;
+      height: auto;
+      background-color:red ;
+   }
+   a:hover{
+    background-color:greenyellow
+   
+    
+   }
+   .bg{
+     background-color:black ;
+   }
+   p{
+     font-size:50px ;
+     font-family: 'Times New Roman', Times, serif ;
+     padding-left:300px ;
+   }
+   .sbi{
+     
+     display:inline-block;
+     
+  
+   }
+   .sbi1{
+     
+     height:50px;
+     width:100px;
+     background-color: springgreen;
+     
+  
+   }
+   .sbi2{
+     
+     height:50px;
+    width:100px;
+    
+    background-color:blue;
+  
+  
+   }
+   .sbi3{
+    height:50px;
+    width:100px;
+    
+    background-color:orange;
+  
+  
+     
+   }
+   .sbi4{
+    height:50px;
+    width:100px;
+     background-color:purple
+   }
+   .sbi5{
+     color:white;
+    height:50px;
+    width:100px;
+    background-color:skyblue;
+   }
+   .flex-container{
+     display: flex;
+     
+     
+   }
+   .f-item{
+     text-align: center;
+      
+    
+     height:250px;
+     width:220px;
+     margin:5px;
+     border:2px solid grey
+     
+   }
+   
+  li{
+  
+  list-style:none ;
+  }
+  h3{
+    color:white;
+    background-color: red;
+  
+  
+  }
+  .animate{
+    position:relative;
+  animation-name:om1 ;
+  animation-duration:10s ;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction:forward;
+  
+    }
+    @keyframes om1 {
+        0%{
+            transform:translateX(10px) ;
+        }
+        50%{
+            transform: translateX(500px);
+        }
+        100%{
+        transform:translateX(10px)
+        }
+    
+  
+  
+        

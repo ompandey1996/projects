@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANG SEARCH</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <STYLE>
+        body:hover{
+            font-size:20px;
+        }
+      ol{
+    list-style:none;
+      }
+      ol li:hover{
+          font-size:30px; 
+      }
+      .card-header{
+        background-color:green ;
+        text-align: center;
+    
+      }
+      .card-footer{
+        background-color:orange;
+        text-align: center;
+      }
+      input:focus{
+          width:50%;
+          box-shadow:5px 5px black
+      }
+    </STYLE>
+
+<div class ="container">
+    <div class ="cards" >
+        <div class ="card-header">
+ 
+        <input id="searchbar" onkeyup="myfunc()" type="text"
+            name="search" placeholder="Search language">
+            </div>
+        
+        <div class ="card-body">
+        <ol id='list'>
+            <li class="lang">ENGLISH</li>
+            <li class="lang">HINDI</li>
+            <li class="lang">BHOJPURI</li>
+            <li class="lang">MAITHLI</li>
+            <li class="lang">BENGALI</li>
+            <li class="lang">TELGU</li>
+            <li class="lang">KANNAD</li>
+            <li class="lang">SANSKRIT</li>
+            <li class="lang">ODIA</li>
+            <li class="lang">GUJRATI</li>
+            <li class="lang">PUNJABI</li>
+        </ol>
+        <!-- <div class ="card-footer text-primary"><b> ONE INDIA </b></div> -->
+        </div>
+        </div>
+        </div>
+        
+        <script>
+
+
+// JavaScript code
+function myfunc() {
+	let input = document.getElementById('searchbar').value
+	input=input.toLowerCase();
+	let x = document.getElementsByClassName('lang');
+	
+	for (i = 0; i < x.length; i++) {
+		if (!x[i].innerHTML.toLowerCase().includes(input)) {
+			x[i].style.display="none";
+		}
+		else {
+			x[i].style.display="list-item";				
+		}
+	}
+}
+
+
+        </script>
+    </body>
+    
+    </html>
+    
+    
+</body>
+</html>
