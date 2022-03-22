@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    button {
+      height:100px;
+      width:100px;
+      background-color: aqua;
+    }
+body{
+background-color: red;
+color:black;
+font-size: 25px;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+  font-size: 35px;
+}
+.fir{
+  height:200px;
+  width :auto;
+  color:green;
+
+}
+.fira{
+  height:200px;
+  width :auto;
+  color:purple;
+
+}
+</style>
+</head>
+<body>
+  <button onclick ="mydark()"> dark mode</button>
+  <div class = "fir">
+    Lorem ipsum dolor sit.
+  </div>
+  <div class = "fira">
+    Lorem ipsum dolor sit.
+  </div>
+  <script>
+    function mydark(){
+ var element = document.body;
+ element.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>

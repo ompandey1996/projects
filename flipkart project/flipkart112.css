@@ -1,0 +1,274 @@
+body{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color:white; 
+    color:black;
+    
+}
+h4{
+    color: aqua;
+}
+button{
+    height:50px;
+    width : 50px;
+    font-size: 26px;
+    border-radius:8px;
+    background-color:green ;
+    
+}
+button:hover{
+    font-size:36px; 
+}
+.dark-mode{
+    
+    background-color:black ;
+    color: aqua;
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+.links{
+   
+    display: none;
+    margin-top:17px; 
+    text-align:centre;
+    
+}
+.links a{
+    margin: top 10px; 
+    display:block;
+    text-align: center;
+    font-size:25px;
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px solid green;
+    background-color:black;
+    margin-left:-900px ;
+} 
+.links a:hover{
+    background-color:aqua;
+    color:white;
+    font-size:35px;
+    opacity:0.7;
+}
+
+
+.flex-container{
+width:auto;
+height:60px;
+background-color:green;
+color:white;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+font-size:25px;
+ 
+}
+
+input{
+width:440px;
+height:42px ;
+margin-left:-180px ;
+padding-left:20px;
+color:purple;
+font-size:20px;
+}
+.fa-magnifying-glass{
+    color:black;
+    font-size:17px;
+    margin-left:-40px;
+}
+
+.navimage-container{
+    height:150px;
+    width:auto;
+    display:flex;
+    color:black;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+    
+
+}
+.animationfather{
+    height:250px;
+    width:auto;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+    text-align: center;
+    font-size:30px;
+    
+    
+}
+.animation{
+    height:200px;
+    width:auto;
+    margin:auto;
+    
+    position:relative;
+    animation-name:om;
+    animation-duration: 15s;
+    animation-iteration-count: infinite ;
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+}
+.animation:focus{
+    animation:stop;
+}
+@keyframes om {
+0%{
+transform:translateX(20px);
+}
+100%{
+    transform:translateX(1200px);
+}
+
+
+    
+}
+.animation img{
+    height:120px;
+    width:130px;
+    margin:10px;
+    
+}
+
+
+.img-item{
+height:100px;
+width:100px;
+background-color: azure;
+transition: width,height,1s ;
+
+}
+.img-item:hover{
+    width: 135px;
+    height:115px ;
+}
+h4{
+    text-align: center;
+    font-size:18px; 
+
+}
+h4:hover{
+    color: aqua;
+    font-size:20px;
+}
+.third-box{
+    height:150px;
+    width:auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:centre ;
+    font-size:15px;
+    
+
+}
+.healthcareimg{
+    text-align: center;
+    height:100px;
+    width:150px;
+    background-color:red;
+    font-size:10px;
+    transition: height,width,2s;
+    color: aqua;
+}
+
+.healthcareimg:hover{
+    height:115px;
+    width:135px;
+
+}
+.third-image{
+    text-align: center;
+    color: blueviolet;
+    font-size:20px; 
+font-style:bold;
+}
+.personal-health{ 
+ margin-top: 1 px;
+ box-shadow: 0px 12px whitesmoke;
+ background-color:white;
+ box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+ margin-left:20px;
+
+
+}
+ span{
+     color:aqua;
+     
+ }
+ .cart span {
+     color:white ;
+ }
+ .Deals of the Day{
+     margin-left:20px; 
+     color:goldenrod;
+     height:450px;
+     width:auto;
+     background-color:aqua;
+    
+
+ }
+ .cloth-fashion{
+     height:150px;
+     width:auto;
+     display:flex;
+     justify-content:centre; 
+     align-items:centre;
+     justify-content:space-evenly ;
+     font-size:25px; 
+     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+     position:relative;
+     color:red ;
+     
+ }
+ .clothimg{
+     height:100px;
+     width:100px;
+     font-size:20px;
+     font-size:23px;
+     
+     transition: height, width , 1s ;
+ }
+ .clothimg:hover{
+     height:120px;
+     width:125px;
+ }
+ darkmode{
+    background-color: black;
+    color:white
+    
+    }
+    
+
+ .lens{
+     height:150px;
+     width:220px;
+     text-align: center;
+     color:black;
+     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%); 
+     
+
+ }
+ .lens-item{
+     height:105px;
+     width:210px;
+     transition:height,width,1s ;
+ }
+ .lens-item:hover{
+    height:110px;
+    width:230px;
+ }
+ @media(max-width:480px){
+.flex-container{
+display:flex;
+width:auto;
+height:auto;
+}
+
+
+
+ }
